@@ -84,8 +84,3 @@ uvicorn app.main:app --reload
 - `app/vector_store.py`: Manages the Pinecone connection.
 - `app/main.py`: Entry point for the FastAPI application.
 
-## Troubleshooting
-
-- **Page Numbers Incorrect?** The ingestion script attempts to find a footer with a number. If it fails, it falls back to a simple counter. Ensure your PDF has clear page numbers at the bottom.
-- **API Errors?** Check your `.env` file and ensure your API keys are valid and have sufficient credits.
-
