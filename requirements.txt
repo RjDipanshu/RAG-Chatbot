@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+python-dotenv
+langchain
+langchain-openai
+langgraph
+pinecone-client
+pypdf
+tiktoken
+gradio
+langchain-google-genai
+langchain-pinecone
+langchain-community
+langchain-groq
+sentence-transformers
+langchain-huggingface
